@@ -103,12 +103,16 @@ nav a.active{
 	top: 0px;
 }
 
+.link{
+	color: black;
+}
+
 form{
 	font-family:'Lucida Sans';
 	font-size: 20px;
 	color: white;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 }
 
