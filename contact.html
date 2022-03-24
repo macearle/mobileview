@@ -6,28 +6,32 @@
 	<link rel="icon" href="images/favicon.jpg">
 	<link rel="stylesheet" href="css/html5resetcopy.css">
 	<link rel = "stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/bacc090f40.js" crossorigin="anonymous"></script>
 	<title>Contact Us</title>
 </head>
 
 <body>
+	<a class = "skip" href ="index.html">Skip to main Content</a>
 	<header>
 		<nav>
-			<ul>
+			<ul class="navbar">
 				<li><a href = "index.html" >Home</a></li>
 				<li><a href = "sisterhood.html">Sisterhood</a></li>
 				<li><a href = "philanthropy.html">Philanthropy</a></li>
-				<li><a href = "contact.html">Contact Us</a></li>
+				<li><a class="active" href = "contact.html">Contact Us</a></li>
 			</ul>
 		</nav>
-		<a href ="index.html">Skip to main Content</a> 
 		<h1>Alpha Chi Omega</h1>
             <h2>Connect with us</h2>
 	</header>
     <main>
 		<div>
-			<p>Check out our Instagram <a href="https://www.instagram.com/axoumich/?hl=en">here!</a> </p>
-        	<img src = "images/mc19gameday.JPG" alt="junior pc before a football game" width="200"/>
+			<p> <i class="fa-brands fa-instagram"></i> Check out our Instagram <a href="https://www.instagram.com/axoumich/?hl=en">here!</a> </p>
+        	<br>
+			<img src = "images/mc19gameday.JPG" alt="junior pc before a football game" width="200"/>
         	<img src = "images/prefgold.jpg" alt="some sophomore sisters at preference round of primary recruitment" width="200"/>
+			</br>
 		</div>
 		<div>
 			<form
@@ -35,21 +39,25 @@
   				method="POST"
 			>
   			<label>
+    			Your name:
+    			<input type="name" name="name">
+  			</label>
+			  <label>
     			Your email:
     			<input type="email" name="email">
   			</label>
   			<label>
-    			Your message:
+    			Your question, comment, or concern:
     			<textarea name="message"></textarea>
   			</label>
-  <!-- your other form fields go here -->
   			<button type="submit">Send</button>
 			</form>
 		</div>
     </main>
-	
-	<footer>
-		<p>Alpha Chi Omega &copy; 2021</p>
-	</footer>
+	<div>
+		<footer>
+			<p>Alpha Chi Omega &copy; 2021</p>
+		</footer>
+	</div>
 </body>
 </html>
