@@ -1,9 +1,3 @@
-html, body {
-	margin:0;
-	padding:0;
-	height:100%;
- }
-
 body{
 	margin:1%;
 	padding:1%;
@@ -46,8 +40,8 @@ img:hover{
 
 #philimages{
 	display: grid;
-	grid-row: 1 / span 3;
-	row-gap: 20 px;
+	grid-row: 1 / 4;
+	row-gap: 20px;
 	column-gap: 20px;
 }
 
@@ -124,4 +118,19 @@ footer p{
 	color:rgb(87, 1, 87);
 	display: flex;
 	justify-content: center;
+}
+
+.fa-brands{
+	animation: move 3s ease;
+}
+
+@keyframes move{
+	from {width: 20px; opacity:0; color: black;}
+		to {width: 20px; opacity:1; color: white;}
+}
+
+@media screen and (prefers-reduced-motion: reduce){
+	.fa-brands{
+		animation:none;
+	}
 }
